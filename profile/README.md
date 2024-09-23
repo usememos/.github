@@ -8,8 +8,12 @@ The fastest growing open source note-taking project 🚀
 
 ## Key points
 
-- **Open source and free to use**. Embrace a future where creativity knows no boundaries with our open-source solution. All features are free to use and will never be charged in any form or content.
-- **Self-hosting with Docker in just seconds**. Enjoy the flexibility, scalability, and ease of setup that Docker provides, allowing you to have full control over your data and privacy.
-- **Pure text with added Markdown support.** Say goodbye to the overwhelming mental burden of rich formatting and embrace a minimalist approach.
-- **Customize and share your notes effortlessly**. With our intuitive sharing features, you can easily collaborate and distribute your notes with others.
-- **RESTful API for third-party services.** Embrace the power of integration and unleash new possibilities with our RESTful API support.
+* **Open-source and free to use**. Unleash your creativity with our open-source solution at no cost.
+
+* **Quick Docker self-hosting**. Easily control your data and privacy with fast, flexible Docker setup.
+
+* **Plain text with Markdown**. Enjoy a simple, minimalist writing experience.
+
+* **Effortless note sharing**. Customize and share notes easily with intuitive tools.
+
+* **RESTful API integration**. Expand possibilities with seamless API support.
