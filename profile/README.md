@@ -1,6 +1,6 @@
-**Memos** is an open source, lightweight note-taking service. Easily capture and share your great thoughts. 
+**Memos - Open Source, Self-hosted, Your Notes, Your Way** 
 
-The fastest growing open source note-taking project 🚀
+Memos is a privacy-first, lightweight note-taking application that allows you to effortlessly capture and share your ideas. And it's the fastest growing open source note-taking project 🚀🚀🚀
 
 [![Star History Chart](https://api.star-history.com/svg?repos=laurent22/joplin,logseq/logseq,usememos/memos&type=Date)](https://star-history.com/#laurent22/joplin&logseq/logseq&usememos/memos&Date)
 
