@@ -8,11 +8,11 @@ The fastest growing open source note-taking project 🚀🚀🚀
 
 [Website](https://www.usememos.com) • [Live Demo](https://demo.usememos.com/) • [Discord](https://discord.gg/tfPJa4UmAv)
 
-## Main Features
+## Features
 
-- **Privacy First** 🏠: Take control of your data. All runtime data is securely stored in your local database.
-- **Create at Speed** ✍️: Save content as plain text for quick access, with Markdown support for fast formatting and easy sharing.
-- **Lightweight but Powerful** 🤲: Built with Go, React.js, and a compact architecture, our application delivers powerful performance in a lightweight package.
-- **Customizable** 🧩: Easily customize your server name, icon, description, system style, and execution scripts to make it uniquely yours.
-- **Open Source** 🦦: Memos embraces the future of open source, with all code available on GitHub for transparency and collaboration.
-- **Free to Use** 💸: Enjoy all features completely free, with no charges ever for any content.
+- **Privacy First** 🏡: Your data, your control. All runtime data is securely stored in your local database.
+- **Create at Speed** ✍️: Write and save content as plain text for quick access, with Markdown support for fast formatting and easy sharing.
+- **Lightweight but Powerful** ⚡: Built with Go and React.js, our app combines a compact architecture with powerful performance.
+- **Customizable** 🧩: Personalize your experience by customizing the server name, icon, description, theme, and execution scripts.
+- **Open Source** 🦦: Fully open source, with all code available on GitHub for transparency and collaboration.
+- **Free to Use** 💸: Enjoy all features at no cost, no hidden fees, no subscriptions.
