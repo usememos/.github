@@ -1,12 +1,8 @@
-<div align="center">
-
-<img height="96px" src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos" />
-
 # Memos
 
-**A privacy-first, lightweight note-taking service**
+<img align="right" height="96px" src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos" />
 
-Write, organize, and own your knowledge
+An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
 
 [![Home](https://img.shields.io/badge/🏠-usememos.com-blue?style=flat-square)](https://www.usememos.com)
 [![Live Demo](https://img.shields.io/badge/✨-Try%20Demo-orange?style=flat-square)](https://demo.usememos.com/)
@@ -14,26 +10,43 @@ Write, organize, and own your knowledge
 [![Discord](https://img.shields.io/badge/💬-Discord-5865f2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/tfPJa4UmAv)
 [![Docker Pulls](https://img.shields.io/docker/pulls/neosmemo/memos?style=flat-square&logo=docker)](https://hub.docker.com/r/neosmemo/memos)
 
-![screenshot](https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png)
+<img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png" alt="Memos Demo Screenshot" height="512" />
 
-</div>
+### 💎 Featured Sponsors
 
-## 🎯 Why Memos?
+[**Warp** — The AI-powered terminal built for speed and collaboration](https://go.warp.dev/memos)
 
-**Your thoughts. Your data. Your control.**
+<a href="https://go.warp.dev/memos" target="_blank" rel="noopener">
+  <img src="https://raw.githubusercontent.com/warpdotdev/brand-assets/main/Github/Sponsor/Warp-Github-LG-02.png" alt="Warp - The terminal for the 21st century" height="300" />
+</a>
 
-Memos is an open-source, self-hosted alternative to cloud note-taking services. No tracking, no ads, no subscription fees — just a clean, fast way to capture and organize your ideas.
+## Overview
 
-- 🔒 **Privacy by design** — All data stays on your server
-- ⚡ **Lightning fast** — Built with Go and React for speed
-- 📝 **Markdown native** — Write naturally with full markdown support
-- 🐳 **Deploy in seconds** — One Docker command to get started
-- 🎨 **Beautiful & minimal** — Focus on your thoughts, not the UI
-- 🔗 **API-first** — Integrate with your workflow seamlessly
+Memos is a privacy-first, self-hosted knowledge base that works seamlessly for personal notes, team wikis, and knowledge management. Built with Go and React, it offers lightning-fast performance without compromising on features or usability.
 
-## 🚀 Quick Start
+**Why choose Memos over cloud services?**
 
-Get up and running in **under 30 seconds**:
+| Feature           | Memos                          | Cloud Services                |
+| ----------------- | ------------------------------ | ----------------------------- |
+| **Privacy**       | ✅ Self-hosted, zero telemetry | ❌ Your data on their servers |
+| **Cost**          | ✅ Free forever, MIT license   | ❌ Subscription fees          |
+| **Performance**   | ✅ Instant load, no latency    | ⚠️ Depends on internet        |
+| **Ownership**     | ✅ Full control & export       | ❌ Vendor lock-in             |
+| **API Access**    | ✅ Full REST + gRPC APIs       | ⚠️ Limited or paid            |
+| **Customization** | ✅ Open source, forkable       | ❌ Closed ecosystem           |
+
+## Features
+
+- **🔒 Privacy-First Architecture**
+- **📝 Markdown Native**
+- **⚡ Blazing Fast**
+- **🐳 Simple Deployment**
+- **🔗 Developer-Friendly**
+- **🎨 Beautiful Interface**
+
+## Quick Start
+
+### Docker (Recommended)
 
 ```bash
 docker run -d \
@@ -43,29 +56,17 @@ docker run -d \
   neosmemo/memos:stable
 ```
 
-Open `http://localhost:5230` and start writing! 🎉
+Open `http://localhost:5230` and start writing!
 
-## 💡 Perfect For
+### Try the Live Demo
 
-- 📓 **Personal journaling** — Daily thoughts and reflections
-- 🧠 **Knowledge management** — Build your second brain
-- 📋 **Quick notes** — Capture ideas on the go
-- 🔗 **Link collections** — Save and organize useful resources
-- 👥 **Team wikis** — Collaborative knowledge bases
-- 🎓 **Learning logs** — Document your learning journey
+Don't want to install yet? Try our [live demo](https://demo.usememos.com/) first!
 
-## ⭐ Star History
+### Other Installation Methods
 
-[![Star History Chart](https://api.star-history.com/svg?repos=usememos/memos&type=Date)](https://star-history.com/#usememos/memos&Date)
+- **Docker Compose** - Recommended for production deployments
+- **Pre-built Binaries** - Available for Linux, macOS, and Windows
+- **Kubernetes** - Helm charts and manifests available
+- **Build from Source** - For development and customization
 
----
-
-<div align="center">
-
-**[Website](https://www.usememos.com)** •
-**[Docs](https://www.usememos.com/docs)** •
-**[Demo](https://demo.usememos.com/)** •
-**[X](https://x.com/usememos)** •
-**[Discord](https://discord.gg/tfPJa4UmAv)**
-
-</div>
+See our [installation guide](https://www.usememos.com/docs/installation) for detailed instructions.
