@@ -2,7 +2,9 @@
 
 <img align="right" height="96px" src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos" />
 
-An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
+An open-source, self-hosted note-taking tool. Capture thoughts instantly. Own them completely. 
+
+Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
 
 [![Home](https://img.shields.io/badge/🏠-usememos.com-blue?style=flat-square)](https://www.usememos.com)
 [![Live Demo](https://img.shields.io/badge/✨-Try%20Demo-orange?style=flat-square)](https://demo.usememos.com/)
