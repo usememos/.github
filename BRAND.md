@@ -60,7 +60,7 @@ Four pieces of copy, used verbatim.
 
 ## Logo
 
-The logo is based on the bird pictograph for the Chinese character 鸟. The SVG source files define its shape.
+The logo is a stylized bird inspired by ancient pictographs. The SVG source files define its shape.
 
 ### Assets
 
@@ -76,9 +76,7 @@ The mark's fill color and background color are controlled separately. SVGs use `
 
 Avatar PNGs have solid backgrounds and square canvases. Each file serves as a shared avatar across platforms, with cropping handled by the platform.
 
-### Compatibility and design status
-
-The legacy files [assets/logo.png](assets/logo.png) and [assets/logo-rounded.png](assets/logo-rounded.png) remain available for existing references during migration.
+### Design status
 
 Wordmark typography, capitalization, and the primary color palette remain under exploration.
 
