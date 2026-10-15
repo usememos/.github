@@ -1,7 +1,5 @@
 # Memos
 
-<img align="right" height="96" src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/logo-rounded.png" alt="Memos logo" />
-
 **Your thoughts, your data, shared on your terms.**
 
 Memos is a timeline for your notes, and it belongs to you. Write in Markdown, post in seconds, and choose who sees each memo: just you, the people you invite, or anyone with the link.
