@@ -1,8 +1,8 @@
-# Memos brand: positioning and copy
+# Memos brand
 
 This document defines what Memos is and the exact copy used to say it. Every public description of Memos (README files, usememos.com, Docker Hub, Helm, deploy templates, docs introduction, store listings) is copied from here. When the copy changes, change it here first, then propagate.
 
-Visual identity (logo, color, typography) is covered separately on the [brand assets page](https://usememos.com/brand).
+Logo assets are described below. The [brand assets page](https://usememos.com/brand) is the public catalog.
 
 ## Principles
 
@@ -57,6 +57,30 @@ Four pieces of copy, used verbatim.
 | README headers, usememos.com hero | Tagline + Short |
 | Docker Hub, Helm, deploy templates | Short |
 | Docs introduction, store listings | Standard |
+
+## Logo
+
+The logo is based on the bird pictograph for the Chinese character 鸟. The SVG source files define its shape.
+
+### Assets
+
+| Asset | Use |
+| --- | --- |
+| [assets/logo.svg](assets/logo.svg) | Standard logo for general use. |
+| [assets/logo-small.svg](assets/logo-small.svg) | Simplified version for display at 32px or smaller. |
+| [assets/avatars/](assets/avatars/) | Avatars using the standard logo, with one 512 × 512 PNG per color palette. Files are named `memos-<palette>.png`. |
+
+### Colors and backgrounds
+
+The mark's fill color and background color are controlled separately. SVGs use `currentColor` for the mark and default to a transparent background. Background color and corner radius are configured where the logo is displayed.
+
+Avatar PNGs have solid backgrounds and square canvases. Each file serves as a shared avatar across platforms, with cropping handled by the platform.
+
+### Compatibility and design status
+
+The legacy files [assets/logo.png](assets/logo.png) and [assets/logo-rounded.png](assets/logo-rounded.png) remain available for existing references during migration.
+
+Wordmark typography, capitalization, and the primary color palette remain under exploration.
 
 ## Changes
 
