@@ -1,7 +1,7 @@
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/lockup-dark.svg">
-    <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/lockup.svg" alt="Memos" width="220">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/brand/lockup-on-dark.svg">
+    <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/brand/lockup.svg" alt="Memos" width="220">
   </picture>
 </p>
 
@@ -12,9 +12,9 @@ Memos is a place for every quick thought. No title, no folder, nothing to pick: 
 [Website](https://usememos.com) · [Demo](https://demo.usememos.com) · [Install](https://usememos.com/docs/deploy) · [Docs](https://usememos.com/docs) · [Brand](https://usememos.com/brand) · [Discord](https://discord.gg/tfPJa4UmAv)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png">
-  <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png" alt="The Memos timeline with a memo composer and recent memos">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/previews/timeline-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/previews/timeline-light.png">
+  <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/previews/timeline-light.png" alt="The Memos timeline with a memo composer and recent memos">
 </picture>
 
 ## Projects
