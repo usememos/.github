@@ -1,9 +1,24 @@
-# Timeline previews
+# Brand previews
 
 Editable source for `assets/previews/timeline-light.png` and `timeline-dark.png`.
 Both themes share the same layout, memo content, official lockup, and Lucide icons.
+The celadon social card exports to `assets/previews/social-preview.png`.
 
-## Build and export
+## Social preview
+
+From the repository root:
+
+```sh
+node tools/preview/build-social.mjs
+```
+
+Open `tools/preview/dist/social-preview.html` and click **Download PNG**, then copy the downloaded `social-preview.png` into `assets/previews/`. The page is self-contained and works without a server. It exports exactly 1280 × 640 pixels, independent of the displayed preview size or device pixel ratio. The PNG is ready to upload as a repository's social preview in GitHub settings.
+
+`build-social.mjs` defines the flat celadon background (`#c8dfd5`), dark ink (`#25363e`), layout, and two-line tagline. It reads the tagline from `BRAND.md` and embeds `assets/brand/lockup.svg`, preserving its official paths, viewBox, padding, and proportions. Only the tagline uses live text (Arial, with Helvetica and sans-serif fallbacks); its rasterization can vary by operating system. No font or image service is required.
+
+The builder also writes `dist/social-preview.svg` for vector inspection. Both generated sources in `dist/` are ignored by Git. Export through **Download PNG** for the published asset; browser screenshots may be lossy. Inspect the PNG at full size and at a small sharing size before replacing it.
+
+## Timeline build and export
 
 Requires Node.js 18 or later and a Chromium browser. No package installation is needed.
 From the repository root:

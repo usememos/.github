@@ -46,6 +46,7 @@ Used as written.
 | [lockup-on-dark.svg](assets/brand/lockup-on-dark.svg) | Standard lockup with light artwork for dark-background image embeds. |
 | [avatars/](assets/brand/avatars/) | Eight 512 × 512 PNGs for account and organization profiles. |
 | [timeline-light.png](assets/previews/timeline-light.png), [timeline-dark.png](assets/previews/timeline-dark.png) | Product previews for the corresponding theme. |
+| [social-preview.png](assets/previews/social-preview.png) | 1280 × 640 social card with the official lockup, tagline, and celadon background. |
 | [sponsors/](assets/sponsors/) | Supplied sponsor artwork. |
 
 Choose size variants by rendered SVG size for marks and visible bird height for lockups.
@@ -65,6 +66,7 @@ With **H** equal to the capital M height, the bird is `1.2H` tall, with a `0.4H`
 - **Accessible names:** Name standalone or linked logos “Memos.” Hide decorative duplicates with `alt=""` or `aria-hidden="true"`, while keeping links named.
 - **Avatars:** Upload the square PNG unchanged and let the platform apply its mask. Pick one color per surface and use it consistently. A primary palette is not chosen yet.
 - **Previews:** Keep light and dark content aligned. Export both 1448 × 1086 PNGs from [tools/preview/](tools/preview/), preserving their aspect ratio and solid control fills. Use the light image as the fallback.
+- **Social card:** Export the 1280 × 640 PNG from `tools/preview/build-social.mjs` and its generated preview page. Keep the celadon background flat and scale the official lockup uniformly.
 
 ## Changes
 
