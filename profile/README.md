@@ -5,13 +5,17 @@
   </picture>
 </p>
 
-### Seconds to write. Yours to keep.
+### A timeline for your thoughts. Just type. It stays yours.
+
+Memos is a place for every quick thought. No title, no folder, nothing to pick: type, and the thought is kept on the day you wrote it. Your memos stay where you decide, yours alone until you share one with family and friends.
 
 [Website](https://usememos.com) · [Demo](https://demo.usememos.com) · [Install](https://usememos.com/docs/deploy) · [Docs](https://usememos.com/docs) · [Brand](https://usememos.com/brand) · [Discord](https://discord.gg/tfPJa4UmAv)
 
-![The Memos timeline with a memo composer and recent memos](https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png)
-
-Memos is a place for every quick thought. No title, no folder, nothing to pick: type, and the thought is kept on the day you wrote it. Your memos stay where you decide, yours alone until you share one with family and friends.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png">
+  <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png" alt="The Memos timeline with a memo composer and recent memos">
+</picture>
 
 ## Projects
 
