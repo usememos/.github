@@ -20,8 +20,8 @@ The generated HTML in `dist/` is ignored by Git.
 Use the PNG download button for published assets. A browser screenshot may use
 lossy encoding even when its filename ends in `.png`. The exporter draws the
 HTML/CSS through an SVG `foreignObject` onto a canvas and explicitly encodes PNG.
-Fonts use Arial with Helvetica and sans-serif fallbacks; text rasterization can
-vary with the browser and installed fonts.
+Fonts use the app's system sans-serif stack; text rasterization can vary with
+the operating system and browser. The exported stage carries its own font styles.
 
 ## Edit
 

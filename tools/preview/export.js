@@ -6,12 +6,9 @@ document.querySelector("#export-png").addEventListener("click", async () => {
     await document.fonts.ready;
     const stage = document.querySelector(".stage");
     const css = document.querySelector("style").textContent.replaceAll(":root {", ".stage {");
-    const ink = getComputedStyle(stage).color;
     const markup = new XMLSerializer().serializeToString(stage);
     const svg =
-      '<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086"><foreignObject x="0" y="0" width="100%" height="100%"><div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Arial,Helvetica,sans-serif;color:' +
-      ink +
-      '"><style>' +
+      '<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086"><foreignObject x="0" y="0" width="100%" height="100%"><div xmlns="http://www.w3.org/1999/xhtml"><style>' +
       css +
       "</style>" +
       markup +

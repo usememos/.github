@@ -1,6 +1,6 @@
 /* Dark counterpart to the approved light mockup. Geometry and content are shared.
    Core surfaces, text, dividers and pin use the app's default-dark palette.
-   All controls use opaque colors; only the outer frame casts a shadow. */
+   All controls use opaque colors. */
 :root {
   color-scheme: dark;
   --backdrop: #202B27;
@@ -10,15 +10,16 @@
   --ink: #DBDEE2;
   --muted: #A2A5A9;
   --line: #3F4348;
+  --action: #7D8084;
   --tag: #2D3A48;
   --tag-text: #9EC2E8;
-  --save: #42678D;
+  --save: #406082;
+  --save-text: #212428;
   --selected: #2B3138;
   --day-active: #2B3C4D;
   --day-today: #456B92;
   --warning: #EBA941;
 }
-.stage { color: var(--ink); }
 .app { border-color: #414945; box-shadow: 0 14px 30px #00000030; }
 .sidebar { border-color: #343A3D; }
 .brand { color: #DBE5DE; }
@@ -32,10 +33,8 @@
 .section-heading { color: #A0A7AC; }
 .view-row, .tag-row { color: #B9C0C5; }
 .view-row .icon, .tag-row .icon, .tag-count { color: #9DA6AD; }
-.placeholder { color: #A2A5AD; }
-.insert { border-color: #7A8794; background: var(--card); color: #B0BAC4; }
-.audience .icon, .memo-actions { color: #A2ABB6; }
-.save { color: #E3ECF6; }
+.insert { border-color: #3F4348; box-shadow: 0 1px 3px #0000000D; }
+.audience .chevron { color: #64676B; }
 .checkbox { border-color: #87929D; background: var(--card); }
 .done .checkbox { background: #7D8994; border-color: #7D8994; color: #171E25; }
 .done .task-text { color: #A3A9B0; }
