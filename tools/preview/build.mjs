@@ -93,7 +93,7 @@ for (const theme of ["light", "dark"]) {
     '<div class="stage"><div class="app">' +
     '<aside class="sidebar" aria-label="Memos navigation"><div class="brand">' +
     lockup +
-    icon("chevron-down") +
+    icon("chevrons-up-down") +
     "</div>" +
     '<div class="nav"><span class="nav-item nav-active">' +
     icon("library") +

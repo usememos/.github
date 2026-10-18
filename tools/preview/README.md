@@ -32,7 +32,7 @@ the operating system and browser. The exported stage carries its own font styles
 | `dark.css` | Dark color overrides. |
 | `export.js` | In-browser lossless PNG export. |
 | `notebook-sketch.png` | Notebook illustration used in the design memo. |
-| `icons.json` | The 15 Lucide icon definitions used by the preview. |
+| `icons.json` | The 16 Lucide icon definitions used by the preview. |
 | `LICENSE.lucide` | Lucide and Feather copyright notices and licenses. |
 
 The builder reads the official lockup from `../../assets/brand/lockup-small.svg`.
