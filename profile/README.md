@@ -1,22 +1,29 @@
-# Memos
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/lockup-dark.svg">
+    <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/lockup.svg" alt="Memos" width="220">
+  </picture>
+</p>
 
-**Your thoughts, your data, shared on your terms.**
+### Seconds to write. Yours to keep.
 
-Memos is a timeline for your notes, and it belongs to you. Write in Markdown, post in seconds, and choose who sees each memo: just you, the people you invite, or anyone with the link.
+[Website](https://usememos.com) · [Demo](https://demo.usememos.com) · [Install](https://usememos.com/docs/deploy) · [Docs](https://usememos.com/docs) · [Brand](https://usememos.com/brand) · [Discord](https://discord.gg/tfPJa4UmAv)
 
-[Website](https://usememos.com) · [Try the demo](https://demo.usememos.com) · [Install guide](https://usememos.com/docs/deploy) · [Docs](https://usememos.com/docs) · [Discord](https://discord.gg/tfPJa4UmAv)
+![The Memos timeline with a memo composer and recent memos](https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png)
 
-<img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/demo.png" alt="The Memos timeline with a memo composer and recent memos" height="512" />
+Memos is a place for every quick thought. No title, no folder, nothing to pick: type, and the thought is kept on the day you wrote it. Your memos stay where you decide, yours alone until you share one with family and friends.
 
 ## Projects
 
-| Project | What it does |
+| Project | What it is |
 | --- | --- |
-| [memos](https://github.com/usememos/memos) | The Memos app. |
-| [web-clipper](https://github.com/usememos/web-clipper) | Save pages, selections, and images to Memos from Chrome or Firefox. |
-| [raycast-extension](https://github.com/usememos/raycast-extension) | Write, capture, and search memos from Raycast. |
-| [telegram-integration](https://github.com/usememos/telegram-integration) | Memogram, a Telegram bot that saves messages and images to Memos. |
+| [memos](https://github.com/usememos/memos) | The Memos app. Open source. |
+| [web-clipper](https://github.com/usememos/web-clipper) | Save pages, selections, and images to your memos from Chrome or Firefox, as Markdown with a link to the source. |
+| [raycast-extension](https://github.com/usememos/raycast-extension) | Write, capture, and search your memos from Raycast. |
+| [telegram-integration](https://github.com/usememos/telegram-integration) | Memogram, a Telegram bot that saves your messages and images to Memos. |
 | [helm](https://github.com/usememos/helm) | A Helm chart for running Memos on Kubernetes. |
 | [dotcom](https://github.com/usememos/dotcom) | The source for usememos.com: website, documentation, and blog. |
+| [editor](https://github.com/usememos/editor) | A block editor for Markdown, for React or any web app. Published to npm as `@usememos/editor`. |
+| [mui](https://github.com/usememos/mui) | React UI components for Memos, built on Base UI. |
 
 Questions and ideas are welcome in [GitHub Discussions](https://github.com/usememos/memos/discussions). If Memos is useful to you, you can [sponsor the project](https://github.com/sponsors/usememos).

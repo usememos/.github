@@ -62,6 +62,8 @@ With **H** equal to the visible capital M height, the bird sits on the left at `
 
 The SVGs use outlined lettering, one `currentColor` fill, and a transparent background; no font is required. Inline them to set CSS `color`, using dark on light or light on dark.
 
+For Markdown on dark backgrounds, [assets/lockup-dark.svg](assets/lockup-dark.svg) supplies a light default color.
+
 ## Changes
 
 Open a pull request against this file. Public surfaces are updated after it merges, with these words and no others.
