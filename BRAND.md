@@ -1,85 +1,67 @@
 # Memos brand
 
-This document defines what Memos is and the exact copy used to say it. Every public description of Memos (README files, usememos.com, Docker Hub, Helm, deploy templates, docs introduction, store listings) is copied from here. When the copy changes, change it here first, then propagate.
+Everything said about Memos in public comes from this file. Change it here first. The [brand page](https://usememos.com/brand) is the public catalog of the mark.
 
-Logo assets are described below. The [brand assets page](https://usememos.com/brand) is the public catalog.
+## Who it is for
 
-## Principles
+Someone with many quick thoughts a day and nowhere to put them. Not a writer or an organizer; they just want the thought out before it goes. Most note apps ask first: a title, a folder, a place on the page. What they write is theirs. Some share part of it with family and friends.
 
-Two principles apply to every line of public copy.
+Public words speak to this person as "you". Sharing is written for that circle. A link anyone can open, the Explore page, and a Memos that several people use are served by the same words, not by separate copy.
 
-1. **Stand on the user's side.** Copy says what you can do and what is yours, not what the software does.
-2. **No machinery.** Words like server, instance, binary, database, and host do not appear in copy, however accurate they are. The reader cares that their notes are theirs, not where the bytes sit.
+## What Memos gives them
 
-## Positioning
+A place for every quick thought. Memos asks nothing first: no title, no folder, no place to put it. They type, and the thought is kept before it goes.
 
-> Memos is a timeline for your thoughts, and it belongs to you. Write a note in seconds, keep it private, or share it with the people you choose.
+A day they can return to. Every memo keeps the day it was written, and any day can be found again.
 
-Short form for headers and metadata: **Your thoughts, your data, shared on your terms.**
+A record that is theirs. It lives where they decide, reports to no one, and leaves as plain Markdown.
 
-"Timeline" holds quick capture and sharing in one word: a feed you post to, where the default reader is you. It describes what you do in Memos (post, choose who sees each memo, browse what others shared in Explore, react, comment, share a link) and separates Memos from knowledge-management tools and team wikis.
+Family and friends, when they choose. A memo is theirs alone until they share it. Each person writes their own memos and sees only what the others choose to show.
 
-Brand copy speaks to one person: the individual who runs Memos for themselves. Small groups sharing one Memos and developers building on it are served by the same copy, not by separate copy.
+## How Memos talks
 
-| Memos is | Memos is not |
+Like that person's own notebook would, if it could talk. Quiet and plain. It says what is yours and what you can do, never what the software does or where it runs. Open-source is the one fact about the software it may state, where readers look for it. It says fast, private, and yours; never frictionless, secure, or encrypted. It does not sell: no comparison with other apps, no superlatives, no call to act.
+
+The product is Memos, singular. One entry is a memo. The whole is the timeline.
+
+## Copy
+
+Used as written.
+
+| Piece | Copy | Where |
+| --- | --- | --- |
+| Tagline | Seconds to write. Yours to keep. | README header, usememos.com hero |
+| One-liner | A timeline for your thoughts. Just type. It stays yours. | Repository descriptions, page metadata |
+| Short | Memos is a place for every quick thought. No title, no folder, nothing to pick: type, and the thought is kept on the day you wrote it. Your memos stay where you decide, yours alone until you share one with family and friends. | README, website, Docker Hub, Helm, deploy templates |
+| Standard | Memos is an open-source timeline for your quick thoughts. It asks nothing first: no title to invent, no folder to pick, no place to put it. Type, and the thought is kept before it goes. Every memo keeps the day it was written, so any day can be found again: by scrolling, by calendar, by tag, or by word. Your memos live where you decide, report to no one, and leave as plain Markdown whenever you like. They are yours alone until you share one with family or friends, who write their own memos and see only what you choose to show. | Documentation introduction, store listings |
+
+## Mark
+
+A bird drawn in the manner of early pictographs, the oldest records of what someone once thought. One filled shape, one color. It is never redrawn: not traced, outlined, stretched, cropped, or colored in parts.
+
+| File | Use |
 | --- | --- |
-| A place to write things down fast | A document editor or wiki |
-| A personal feed you own | A social network you join |
-| Private by default, shareable per memo | Public by default |
-| Yours to keep, wherever you choose | A service someone else runs for you |
-| Plain text you can take anywhere | A format that locks you in |
+| [assets/logo.svg](assets/logo.svg) | Above 32 px. |
+| [assets/logo-small.svg](assets/logo-small.svg) | 32 px and below. |
+| [assets/avatars/](assets/avatars/) | Profile pictures: eight 512 × 512 PNGs, one per color, named `memos-<color>.png`. |
 
-## Approved copy
+The SVGs draw the bird in `currentColor` with no background. Set the color with CSS `color`, and an optional background and radius with the `--logo-background` and `--logo-radius` custom properties.
 
-Four pieces of copy, used verbatim.
+A primary palette is not chosen yet. Pick one avatar color per surface.
 
-### Tagline
+## Wordmark and lockup
 
-> Your thoughts, your data, shared on your terms.
+**Memos** uses [Source Serif 4](https://github.com/adobe-fonts/source-serif) Semibold (`600`), optical size `32`, kerning enabled, and `−0.015em` letter spacing. The font is free for personal and commercial use under the [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-serif/blob/release/LICENSE.md). This typeface choice applies only to the wordmark.
 
-### One-liner
-
-> Your own timeline for quick notes, private by default.
-
-### Short
-
-> Memos is a timeline for your notes, and it belongs to you. Write in Markdown, post in seconds, and choose who sees each memo: just you, the people you invite, or anyone with the link.
-
-### Standard
-
-> Memos is an open-source timeline for your thoughts. Write a memo in seconds, tag it, attach files, and move on. Every memo is private by default; share one with the people you choose, or with anyone who has the link, when you want to. Your notes are yours: you keep them where you decide, nobody else reads them, and you can take them with you at any time.
-
-### Where each is used
-
-| Surface | Copy |
+| File | Visible bird height |
 | --- | --- |
-| GitHub repository and organization descriptions, page metadata | One-liner |
-| README headers, usememos.com hero | Tagline + Short |
-| Docker Hub, Helm, deploy templates | Short |
-| Docs introduction, store listings | Standard |
+| [assets/lockup.svg](assets/lockup.svg) | Above 32 px. |
+| [assets/lockup-small.svg](assets/lockup-small.svg) | 32 px and below. |
 
-## Logo
+With **H** equal to the visible capital M height, the bird sits on the left at `1.2H` tall, with a `0.4H` gap between shapes and `0.25H` canvas padding on each side. Preserve the supplied optical alignment and scale uniformly.
 
-The logo is a stylized bird inspired by ancient pictographs. The SVG source files define its shape.
-
-### Assets
-
-| Asset | Use |
-| --- | --- |
-| [assets/logo.svg](assets/logo.svg) | Standard logo for general use. |
-| [assets/logo-small.svg](assets/logo-small.svg) | Simplified version for display at 32px or smaller. |
-| [assets/avatars/](assets/avatars/) | Avatars using the standard logo, with one 512 × 512 PNG per color palette. Files are named `memos-<palette>.png`. |
-
-### Colors and backgrounds
-
-The mark's fill color and background color are controlled separately. SVGs use `currentColor` for the mark and default to a transparent background. Background color and corner radius are configured where the logo is displayed.
-
-Avatar PNGs have solid backgrounds and square canvases. Each file serves as a shared avatar across platforms, with cropping handled by the platform.
-
-### Design status
-
-Wordmark typography, capitalization, and the primary color palette remain under exploration.
+The SVGs use outlined lettering, one `currentColor` fill, and a transparent background; no font is required. Inline them to set CSS `color`, using dark on light or light on dark.
 
 ## Changes
 
-Open a pull request against this file. Copy on other surfaces is updated after the change here is merged.
+Open a pull request against this file. Public surfaces are updated after it merges, with these words and no others.
