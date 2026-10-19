@@ -83,6 +83,8 @@ With **H** equal to the capital M height, the bird is `1.4H` tall, with a `0.32H
 
 ## Changes
 
+Use the repository-local [sync-brand skill](.agents/skills/sync-brand/SKILL.md) to audit changes and synchronize registered repositories, website surfaces, and GitHub settings. Its [target registry](.agents/skills/sync-brand/references/targets.md) defines coverage and update methods.
+
 Before moving or removing assets, update their consumers. Preserve active sponsor URLs, including those stored in seeded memos. Keep editable preview sources in `tools/preview/` and experiments out of `assets/`.
 
 Open a pull request against this file. Public surfaces are updated after it merges, with these words and no others.

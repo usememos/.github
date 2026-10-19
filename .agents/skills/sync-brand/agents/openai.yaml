@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Memos Brand"
+  short_description: "Sync Memos branding across repos, website, and GitHub"
+  default_prompt: "Use $sync-brand to synchronize approved Memos brand changes across the registered targets, starting with an impact check."
