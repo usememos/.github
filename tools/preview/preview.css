@@ -27,7 +27,7 @@ body { font-family: var(--font-sans); color: var(--ink); background: var(--backd
 .app { display: flex; width: 1356px; height: 1022px; overflow: hidden; border: 1px solid #C9CECB; border-radius: 8px; background: var(--app); box-shadow: 0 14px 30px #253A2F12; }
 .sidebar { flex: 0 0 324px; padding: 10px 13px; border-right: 1px solid #E2E1DD; background: var(--sidebar); }
 .brand { display: flex; align-items: center; gap: 10px; height: 45px; margin-bottom: 12px; color: #17201C; }
-.brand-lockup { display: block; width: 145px; height: 40px; }
+.brand-lockup { display: block; width: 145px; height: auto; }
 .brand .icon { width: 17px; height: 17px; margin-left: -1px; color: #858782; }
 .icon { display: inline-block; width: 22px; height: 22px; flex: 0 0 auto; vertical-align: middle; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .nav { height: 54px; display: flex; align-items: flex-start; gap: 15px; border-bottom: 1px solid #DBDBD5; color: #7F817E; }

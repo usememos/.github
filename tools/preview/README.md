@@ -14,7 +14,7 @@ node tools/preview/build-social.mjs
 
 Open `tools/preview/dist/social-preview.html` and click **Download PNG**, then copy the downloaded `social-preview.png` into `assets/previews/`. The page is self-contained and works without a server. It exports exactly 1280 × 640 pixels, independent of the displayed preview size or device pixel ratio. The PNG is ready to upload as a repository's social preview in GitHub settings.
 
-`build-social.mjs` defines the flat celadon background (`#c8dfd5`), dark ink (`#25363e`), layout, and two-line tagline. It reads the tagline from `BRAND.md` and embeds `assets/brand/lockup.svg`, preserving its official paths, viewBox, padding, and proportions. Only the tagline uses live text (Arial, with Helvetica and sans-serif fallbacks); its rasterization can vary by operating system. No font or image service is required.
+`build-social.mjs` defines the flat celadon background (`#c8dfd5`), dark ink (`#25363e`), and brand-first layout. The lockup has an 820 px canvas width; the smaller 48 px headline sits on one line below it. Their visible left edges align, and the group is centered on the card. It reads the Headline copy cell from `BRAND.md` and embeds `assets/brand/lockup.svg`, preserving its official paths, viewBox, padding, and proportions. Only the headline uses live text (Arial, with Helvetica and sans-serif fallbacks); its rasterization can vary by operating system. No font or image service is required.
 
 The builder also writes `dist/social-preview.svg` for vector inspection. Both generated sources in `dist/` are ignored by Git. Export through **Download PNG** for the published asset; browser screenshots may be lossy. Inspect the PNG at full size and at a small sharing size before replacing it.
 
@@ -50,7 +50,9 @@ the operating system and browser. The exported stage carries its own font styles
 | `icons.json` | The 16 Lucide icon definitions used by the preview. |
 | `LICENSE.lucide` | Lucide and Feather copyright notices and licenses. |
 
-The builder reads the official lockup from `../../assets/brand/lockup-small.svg`.
+The builder reads the official lockup from `../../assets/brand/lockup.svg`.
+The same outlines and proportions are used at every size. The preview sets its
+width to 145 px and lets its height follow the SVG aspect ratio.
 The icon definitions were copied from `lucide-react` 1.34.0 without changing their
 geometry; the build includes their license notices in each generated HTML file.
 The notebook illustration was extracted from the approved generated mockup.

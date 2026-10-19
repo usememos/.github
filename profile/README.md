@@ -5,9 +5,9 @@
   </picture>
 </p>
 
-### A timeline for your thoughts. Just type. It stays yours.
+### Simple note-taking for your everyday thoughts.
 
-Memos is a place for every quick thought. No title, no folder, nothing to pick: type, and the thought is kept on the day you wrote it. Your memos stay where you decide, yours alone until you share one with family and friends.
+Memos is an open-source, self-hosted note-taking app that brings your everyday thoughts together in a personal timeline. Your data stays yours, and you choose what to keep private or share.
 
 [Website](https://usememos.com) · [Demo](https://demo.usememos.com) · [Install](https://usememos.com/docs/deploy) · [Docs](https://usememos.com/docs) · [Brand](https://usememos.com/brand) · [Discord](https://discord.gg/tfPJa4UmAv)
 
@@ -16,6 +16,14 @@ Memos is a place for every quick thought. No title, no folder, nothing to pick: 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/previews/timeline-light.png">
   <img src="https://raw.githubusercontent.com/usememos/.github/refs/heads/main/assets/previews/timeline-light.png" alt="The Memos timeline with a memo composer and recent memos">
 </picture>
+
+## About Memos
+
+Memos is an open-source, self-hosted note-taking app for your everyday thoughts. It’s a place to write what’s on your mind as you go about your day. A single sentence can be a whole memo, or you can take your time with a longer entry, using Markdown to give your words more structure.
+
+These moments of writing gradually become a personal record. Each memo stays with the day you wrote it, bringing your thoughts together in a timeline you can look back through. Tags connect related thoughts across those days, making it easy to pick up a topic again or find something you remember writing.
+
+That record lives on your own server, and your data stays yours. You choose what stays private, what to share with family and friends, and what to publish on the web. In shared spaces, you can write alongside others while each person keeps their own memos.
 
 ## Projects
 

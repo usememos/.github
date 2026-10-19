@@ -26,7 +26,7 @@ for (const theme of ["light", "dark"]) {
       )
       .join("") +
     "</svg>";
-  const lockup = (await fs.readFile(path.resolve(dir, "../../assets/brand/lockup-small.svg"), "utf8")).replace(
+  const lockup = (await fs.readFile(path.resolve(dir, "../../assets/brand/lockup.svg"), "utf8")).replace(
     "<svg ",
     '<svg class="brand-lockup" ',
   );

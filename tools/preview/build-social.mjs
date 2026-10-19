@@ -4,34 +4,35 @@ import { fileURLToPath } from "node:url";
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
 const brand = await fs.readFile(path.resolve(dir, "../../BRAND.md"), "utf8");
-const tagline = brand.match(/^\| Tagline \| (.+?) \|/m)?.[1];
-if (!tagline) throw new Error("The canonical tagline is missing from BRAND.md.");
-const lines = tagline.match(/[^.!?]+[.!?]/g)?.map((line) => line.trim());
-if (lines?.length !== 2 || lines.join(" ") !== tagline) {
-  throw new Error("The social preview expects a two-sentence tagline.");
-}
+const headline = brand.match(/^\| Headline \| [^|]+ \| (.+?) \|/m)?.[1];
+if (!headline) throw new Error("The canonical headline is missing from BRAND.md.");
 const escapeXml = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 
 // Keep the official paths, viewBox, padding, and alignment together. Only the
 // outer placement and uniform scale change; the wordmark is never typeset.
 const source = await fs.readFile(path.resolve(dir, "../../assets/brand/lockup.svg"), "utf8");
 const [, , , sourceWidth, sourceHeight] = source.match(/viewBox="([\d.]+) ([\d.]+) ([\d.]+) ([\d.]+)"/);
-const lockupWidth = 900;
+const lockupWidth = 820;
 const lockupHeight = (lockupWidth * Number(sourceHeight)) / Number(sourceWidth);
+// BRAND.md defines a 1.4H bird and 0.25H clear space on each side: 1.9H total.
+// Align the visible artwork with the headline, rather than the padded SVG canvas.
+const clearSpace = (lockupHeight * 0.25) / 1.9;
+const artworkLeft = 150;
+const artworkTop = 180;
 const lockup = source.replace(/<svg\b[^>]*>/, (tag) =>
   tag
     .replace(/width="[^"]+"/, `width="${lockupWidth}"`)
     .replace(/height="[^"]+"/, `height="${lockupHeight}"`)
-    .replace("<svg ", '<svg x="51" y="101" '),
+    .replace("<svg ", `<svg x="${artworkLeft - clearSpace}" y="${artworkTop - clearSpace}" `),
 );
 
-// Fixed geometry follows the selected celadon concept. Text remains editable;
-// the background is a flat fill, with no generated texture or raster artwork.
+// The lockup leads; the smaller single-line headline sits below with breathing room.
+// The left-aligned group is centered on the flat celadon background.
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" color="#25363e" role="img" aria-labelledby="social-title">
-  <title id="social-title">Memos — ${escapeXml(tagline)}</title>
+  <title id="social-title">Memos — ${escapeXml(headline)}</title>
   <rect width="1280" height="640" fill="#c8dfd5"/>
   ${lockup.trim()}
-  <text fill="currentColor" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="400" letter-spacing="-0.5"><tspan x="80" y="424">${escapeXml(lines[0])}</tspan><tspan x="80" y="510">${escapeXml(lines[1])}</tspan></text>
+  <text x="${artworkLeft}" y="450" fill="currentColor" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="400" letter-spacing="-0.3">${escapeXml(headline)}</text>
 </svg>\n`;
 const imageUrl = `data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")}`;
 const html = `<!doctype html>
@@ -55,7 +56,7 @@ const html = `<!doctype html>
 </head>
 <body>
   <main>
-    <img id="preview" src="${imageUrl}" width="1280" height="640" alt="Memos. ${escapeXml(tagline)}">
+    <img id="preview" src="${imageUrl}" width="1280" height="640" alt="Memos. ${escapeXml(headline)}">
     <div class="controls">
       <a id="export-png" download="social-preview.png" aria-disabled="true">Download PNG</a>
       <p id="status" role="status">Preparing PNG…</p>
