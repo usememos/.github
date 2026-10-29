@@ -29,6 +29,6 @@ That record lives on your own server, and your data stays yours. You choose what
 | [helm](https://github.com/usememos/helm) | A Helm chart for running Memos on Kubernetes. |
 | [dotcom](https://github.com/usememos/dotcom) | The source for usememos.com: website, documentation, and blog. |
 | [editor](https://github.com/usememos/editor) | A block editor for Markdown, for React or any web app. Published to npm as `@usememos/editor`. |
-| [mui](https://github.com/usememos/mui) | React UI components for Memos, built on Base UI. |
+| [ui](https://github.com/usememos/ui) | React UI components for Memos, built on Base UI. |
 
 Questions and ideas are welcome in [GitHub Discussions](https://github.com/usememos/memos/discussions). If Memos is useful to you, you can [sponsor the project](https://github.com/sponsors/usememos).
